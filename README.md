@@ -1,4 +1,4 @@
-Caltech Pedestrian Dataset images-Converter
+# Caltech Pedestrian Dataset images-Converter
 
 This repository is based on [caltech-pedestrian-dataset-converter](https://github.com/mitmul/caltech-pedestrian-dataset-converter) repository. It is impemented to prepare the images of Caltech Pedestrian Dataset specifically for [Pedestron](https://github.com/hasanirtiza/Pedestron) project.
 
@@ -19,25 +19,12 @@ pip install -r requirements.txt
 
 ### How to ... 
 
-python convert_seqs.py converts .seq video files to .jpg frames. They will end up in the images folder.
+`$ python convert_seqs.py` converts .seq video files to .jpg frames. They will end up in the `images` folder.
 
 
 
 ### Folder structure 
-```shell 
-datasets/Caltech/
-|__train_images/  # 128419 images
-   |__set00_V000_I00000.jpg
-   |__set00_V000_I00001.jpg
-   |__ ...
-   |__set05_V012_I01706.jpg
-|__test_images # 121465 images
-   |__set06_V000_I00000.jpg
-   |__set06_V000_I00001.jpg
-   |__ ...
-   |__set10_V011_I01733.jpg
-   
-   
+```shell   
 data/
 |__images/   # 128419 train-images
    |__set00_V000_I00000.jpg 
@@ -64,10 +51,6 @@ or
 |__set08/
 |__set09/
 |__set10/
-
-convert_seqs.py
-README.md
-requirements.txt
 
 ```
 
