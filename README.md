@@ -1,25 +1,25 @@
-# Caltech Pedestrian Dataset images-Converter
+## Caltech Pedestrian Dataset images-Converter
 
-This repository is based on [caltech-pedestrian-dataset-converter](https://github.com/mitmul/caltech-pedestrian-dataset-converter) repository. It is impemented to prepare the images of Caltech Pedestrian Dataset specifically for [Pedestron](https://github.com/hasanirtiza/Pedestron) project.
+This repository is based on [caltech-pedestrian-dataset-converter](https://github.com/mitmul/caltech-pedestrian-dataset-converter) repository. It is impemented to prepare the images of caltech pedestrian dataset specifically for [Pedestron](https://github.com/hasanirtiza/Pedestron) project.
 
 
 ### Download Caltech Datasets 
-Download caltech pedestrian videos from [caltech-pedestrians](https://drive.google.com/drive/folders/1cnQHqa8BkVx90-6-UojHnbMB0WhksSRc).
+1- Download caltech pedestrian videos from [caltech-pedestrians](https://drive.google.com/drive/folders/1cnQHqa8BkVx90-6-UojHnbMB0WhksSRc).
 
-The annotation files (train.json and test.json) is provided by [Pedestron](https://github.com/hasanirtiza/Pedestron/tree/master/datasets/Caltech).
+2- The annotation files (train.json and test.json) is provided by [Pedestron](https://github.com/hasanirtiza/Pedestron/tree/master/datasets/Caltech) repository.
 
 
 ### Virtualenv 
-git clone https://github.com/Nazila-H/Caltech-images-convertor.git
-cd Caltech-images-convertor
-conda create -name caltech python==3.8
-conda activate caltech
-pip install -r requirements.txt
+git clone https://github.com/Nazila-H/Caltech-images-convertor.git\\
+cd Caltech-images-convertor\\
+conda create -name caltech python==3.8\\
+conda activate caltech\\
+pip install -r requirements.txt\\
 
 
 ### How to ... 
 
-`$ python convert_seqs.py` converts .seq video files to .jpg frames. They will end up in the `images` folder.
+`$ python convert_seqs.py` converts .seq video files to .jpg frames that they are ready to use for Pedestron project. They will end up in the `images` folder.
 
 
 
