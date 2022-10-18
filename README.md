@@ -23,6 +23,9 @@ pip install -r requirements.txt<br />
 
 ### Folder structure 
 ```shell   
+convert_seqs.py
+README.md
+requirements.txt
 data/
 |__images/   # 128419 train-images
    |__set00_V000_I00000.jpg 
