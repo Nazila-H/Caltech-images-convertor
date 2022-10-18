@@ -7,6 +7,7 @@ This repository is based on [caltech-pedestrian-dataset-converter](https://githu
 
 2- The annotation files (train.json and test.json) is provided by [Pedestron](https://github.com/hasanirtiza/Pedestron/tree/master/datasets/Caltech) repository.
 
+
 ### Virtualenv 
 git clone https://github.com/Nazila-H/Caltech-images-convertor.git<br />
 cd Caltech-images-convertor<br />
@@ -14,9 +15,11 @@ conda create -name caltech python==3.8<br />
 conda activate caltech<br />
 pip install -r requirements.txt<br />
 
+
 ### How to ... 
 
 `$ python convert_seqs.py` converts .seq video files to .jpg frames that they are ready to use for Pedestron project. They will end up in the `images` folder.
+
 
 ### Folder structure 
 ```shell   
